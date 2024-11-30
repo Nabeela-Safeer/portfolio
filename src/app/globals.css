@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .tags{
+    background-color: cyan;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 3px 10px;
+    display: inline-block;
+    color:white;
+    font-size:12px;
+  }
+
+  .tags:last-child{
+    margin-right: 0;
+  }
+
+  .tags:nth-child(2){
+    background-color: purple ;
+  }
+
+  .tags:nth-child(3){
+    background-color:orange ;
+  }
+  .tags:nth-child(4){
+    background-color:red ;
+  }
+ 
+}
